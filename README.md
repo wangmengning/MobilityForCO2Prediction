@@ -26,7 +26,7 @@ Python packages versions are specified as follows:
 
 
 ## 1. CO<sub>2</sub> emissions data
-This dataset is sourced from the Global Gridded Daily CO2 Emissions Dataset (GRACED), accessible at <https://carbonmonitor-graced.com/>. This dataset supports the work in [Scientific Data 7, 392 (2020)](https://doi.org/10.1038/s41597-020-00708-7), [Nature Communication 11, 5172 (2020)](https://doi.org/10.1038/s41467-020-18922-7), [The Innovation, 2022, 3(1) ](https://doi.org/10.1016/j.xinn.2021.100182) and [Scientific Data 10, 69 (2023)](https://www.nature.com/articles/s41597-023-01963-0). GRACED has been processed to derive daily CO2 emission within distinct regional boundaries. 
+This dataset is sourced from the Global Gridded Daily CO2 Emissions Dataset (GRACED), accessible at <https://carbonmonitor-graced.com/>. This dataset supports the work in [Scientific Data 7, 392 (2020)](https://doi.org/10.1038/s41597-020-00708-7), [Nature Communication 11, 5172 (2020)](https://doi.org/10.1038/s41467-020-18922-7), [The Innovation, 3, 1 (2022) ](https://doi.org/10.1016/j.xinn.2021.100182) and [Scientific Data 10, 69 (2023)](https://www.nature.com/articles/s41597-023-01963-0). GRACED has been processed to derive daily CO2 emission within distinct regional boundaries. 
 
 ## 2. Mobility data
 * **China** - Mobility data for China, collected between January 1 to February 29, 2020, is aggregated at the city level.
@@ -37,7 +37,7 @@ The mobility data in Italy, the U.S., and Mexico are open-source and accessible 
 * **Mexico** - Mobility data for Mexic, depicting travel patterns between municipalities in Mexico, this dataset covers the period from January 1 to December 31, 2020, available at <https://osf.io/42xqz/>.
 
 ## 3. Correlation
-This module presents the correlation analysis between human mobility and CO2 emissions. 
+This module presents the correlation analysis between human mobility and CO<sub>2</sub> emissions. 
 
 * **`spatiotemporal correlations.ipynb`** - Code for Subplots Fig. 1a-c: calculate changes in intercity mobility and CO<sub>2</sub> emissions of multi-source, domestic aviation, and ground transportation.
 * **`calculatie global features.ipynb`** - Calculate global features using `Mobility Data`.
