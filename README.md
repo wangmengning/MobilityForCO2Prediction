@@ -33,8 +33,8 @@ This dataset is sourced from the Global Gridded Daily CO<sub>2</sub> Emissions D
   
 The mobility data in Italy, the U.S., and Mexico are open-source and accessible through the following links.
 * **Italy** - Mobility data for Italy, spanning from January 18 to June 26, 2020, capturing aggregated origin-destination movements between different Italian provinces. The dataset is available at <https://data.humdata.org/dataset/covid-19-mobility-italy>.
-* **the U.S.** - Mobility data for the U.S., spanning from January 1 to February 15, 2020, offers valuable insights into population movement patterns at two geographical scales: county and state. The datasets are accessible at <https://github.com/GeoDS/COVID19USFlows>.
-* **Mexico** - Mobility data for Mexico, presents a collection of human mobility networks that depict travel patterns between municipalities in Mexico during the period from January 1, 2020, to December 31, 2020. The datasets are accessible at <https://osf.io/42xqz/>.
+* **the U.S.** - Mobility data for the U.S., spanning from January 1 to February 15, 2020, offers valuable insights into population movement patterns at two geographical scales: county and state. The dataset is accessible at <https://github.com/GeoDS/COVID19USFlows>.
+* **Mexico** - Mobility data for Mexico, presents a collection of human mobility networks that depict travel patterns between municipalities in Mexico during the period from January 1, 2020, to December 31, 2020. The dataset is accessible at <https://osf.io/42xqz/>.
 
 ## 3. Correlation
 This module presents the correlation analysis between human mobility and CO<sub>2</sub> emissions. 
