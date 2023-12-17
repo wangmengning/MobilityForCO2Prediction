@@ -63,8 +63,8 @@ This module presents the code and data for evaluating the importance of features
 ## 6. Extrapolation
 This module prepares the input data for predictive models for various countries by incorporating network features from their respective mobility data. The outputs were then stored in the specified files. Subsequently, the data and predictive model were employed with the code shown in 4. Prediction to generate the results in Fig. 4.
 * **`input_Italy.csv`**
-* **`input_Mexico.csv`**
 * **`input_USA_county.csv`**
+* **`input_Mexico.csv`**
   
 ## 7. City clusters
 This module includes the input data and code for city cluster analysis.
