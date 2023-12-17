@@ -1,5 +1,5 @@
 # MobilityForCO2Prediction 
-This is the repository for all the data and code for reproducing the analysis in the manuscript: Wang MN, Zhang XZ, Tan SY, Zhang Q, Sai B, Cai MS, Guo SH, Wrathall D, Obersteiner M, Li MJ, Liu Z, Chen XH, Lu X. Inferring Carbon Emissions from Human Mobility Data. 2023, under review. 
+This is the repository for all the data and code for reproducing the analysis in the manuscript: Wang MN, Zhang XZ, Tan SY, Zhang Q, Sai B, Cai MS, Guo SH, Wrathall D, Obersteiner M, Li MJ, Liu Z, Chen XH, and Lu X. Inferring Carbon Emissions from Human Mobility Data. 2023, under review. 
 ## Computational environment
 
 ```
@@ -34,7 +34,7 @@ This dataset is sourced from the Global Gridded Daily CO2 Emissions Dataset (GRA
 The mobility data in Italy, the U.S., and Mexico are open-source and accessible through the following links.
 * **Italy** -Mobility data for Italy, spanning from January 18 to June 26, 2020, encompasses aggregated origin-destination movements between different Italian provinces. The dataset is available at <https://data.humdata.org/dataset/covid-19-mobility-italy>.
 * **the U.S.** - Mobility data for the U.S., spanning from January 1 to February 15, 2020, offers valuable insights into population movement patterns at the county and state levels. The datasets are accessible at <https://github.com/GeoDS/COVID19USFlows>.
-* **Mexico** - Mobility data for Mexic, depicting travel patterns between municipalities in Mexico, this dataset covers the period from January 1 to December 31, 2020, available at <https://osf.io/42xqz/>.
+* **Mexico** - Mobility data for Mexico, depicting travel patterns between municipalities in Mexico, this dataset covers the period from January 1 to December 31, 2020, available at <https://osf.io/42xqz/>.
 
 ## 3. Correlation
 This module presents the correlation analysis between human mobility and CO<sub>2</sub> emissions. 
@@ -47,10 +47,10 @@ This module presents the correlation analysis between human mobility and CO<sub>
 * **node** - Results of `calculatie node features.ipynb`, with the summary available in `node features.csv`.
 
 ## 4. Prediction
-This module presents the prediction algorithm for the CO2 emissions with Strategy 1 and Strategy 2.
+This module presents the prediction algorithm for the CO<sub>2</sub> emissions with Strategy 1 and Strategy 2.
 * **`LGBM-strategy1.ipynb`** and **`LGBM-strategy2.ipynb`** - The respective code for Strategy 1 and Strategy 2.
 * **`res_lgbm_s1.csv`** and **`res_lgbm_s2.csv`** - The respective prediction result of `LGBM-strategy1.ipynb` and `LGBM-strategy2.ipynb`.
-* **`plot the predicted result.ipynb`** - Code for Fig. 2: analyze the relations between the predicted CO2 emissions and observed CO<sub>2</sub> emissions for each strategy.
+* **`plot the predicted result.ipynb`** - Code for Fig. 2: analyze the relations between the predicted CO<sub>2</sub> emissions and observed CO<sub>2</sub> emissions for each strategy.
 
 ## 5. Evaluation
 This module presents the code and data for evaluating the importance of features and robustness analysis.
@@ -60,13 +60,13 @@ This module presents the code and data for evaluating the importance of features
 * **`prediction with all historial data.ipynb`** - Code for Fig. 3d: predict CO<sub>2</sub> emissions with all history data.
 
 
-## 6.Extrapolation
+## 6. Extrapolation
 This module prepares the input data for predictive models for various countries by incorporating network features from their respective mobility data. The outputs were then stored in the specified files. Subsequently, the data and predictive model were employed with the code shown in 4. Prediction to generate the results in Fig. 4.
 * **`input_Italy.csv`**
 * **`input_Mexico.csv`**
 * **`input_USA_county.csv`**
   
-## 7.City clusters
+## 7. City clusters
 This module includes the input data and code for city cluster analysis.
 * **`city cluster- normal times.csv`** - The input data for `city cluster.ipynb`, includes total CO<sub>2</sub> emission data for cities, along with information about their respective urban clusters.
 * **`city cluster.ipynb`** - Code for Fig. 5: analyze the characteristics of human mobility and CO<sub>2</sub> emissions in urban clusters.
