@@ -57,7 +57,7 @@ This module presents the code and data for evaluating the importance of features
 * **`LGBM-strategy1-null model.ipynb`** and **`LGBM-strategy2-null model.ipynb`** - The different strategies for predicting CO<sub>2</sub> emissions with population and latitude-longitude features.
 * **`res_lgbm_s1_null.csv`** and **`res_lgbm_s2_null.csv`** - The respective prediction result of `LGBM-strategy1-null.ipynb` and `LGBM-strategy2-null.ipynb`.
 * **`ablation experiment.ipynb`** - Code for Fig. 3c: conduct ablation experiments.
-* **`prediction with all historial data.ipynb`** - Code for Fig. 3d: predict CO<sub>2</sub> emissions with all history data.
+* **`prediction with all historial data.ipynb`** - Code for Fig. 3d: predict CO<sub>2</sub> emissions with all historical data.
 
 
 ## 6. Extrapolation
@@ -68,6 +68,6 @@ This module prepares the input data for predictive models for various countries 
   
 ## 7. City clusters
 This module includes the input data and code for city cluster analysis.
-* **`city cluster- normal times.csv`** - The input data for `city cluster.ipynb`, includes total CO<sub>2</sub> emission data for cities, along with information about their respective urban clusters.
-* **`city cluster.ipynb`** - Code for Fig. 5: analyze the characteristics of human mobility and CO<sub>2</sub> emissions in urban clusters.
+* **`city cluster- normal times.csv`** - The input data for `city cluster.ipynb`, includes total CO<sub>2</sub> emission data for cities, along with information about their respective city clusters.
+* **`city cluster.ipynb`** - Code for Fig. 5: analyze the characteristics of human mobility and CO<sub>2</sub> emissions in city clusters.
  
