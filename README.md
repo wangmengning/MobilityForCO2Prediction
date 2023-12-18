@@ -48,10 +48,13 @@ This module presents the correlation analysis between human mobility and CO<sub>
 
 ## 4. Prediction
 This module presents the prediction algorithm for the CO<sub>2</sub> emissions with Strategy 1 and Strategy 2.
-* **`LGBM-strategy1.ipynb`** and **`LGBM-strategy2.ipynb`** - The respective code for Strategy 1 and Strategy 2.
+* **`LGBM-strategy1.ipynb`** and **`LGBM-strategy2.ipynb`** - Utilizing the LGBM algorithm, the corresponding code for Strategy 1 and Strategy 2 respectively.
 * **`res_lgbm_s1.csv`** and **`res_lgbm_s2.csv`** - The respective prediction result of `LGBM-strategy1.ipynb` and `LGBM-strategy2.ipynb`.
 * **`plot the predicted result.ipynb`** - Code for Fig. 2: analyze the relations between the predicted CO<sub>2</sub> emissions and observed CO<sub>2</sub> emissions for each strategy.
-
+* **`ANN-strategy1.ipynb`** and **`ANN-strategy2.ipynb`** - Utilizing the ANN algorithm, the corresponding code for Strategy 1 and Strategy 2 respectively.
+* **`XGB-strategy1.ipynb`** and **`XGB-strategy2.ipynb`** - Utilizing the XGB algorithm, the corresponding code for Strategy 1 and Strategy 2 respectively.
+* **`MLR-Lasso-KNN-SVR-RF-strategy1.ipynb`** and **`MLR-Lasso-KNN-SVR-RF-strategy2.ipynb`** - Aggregation of the code implementing Strategies 1 and Strategies 2, utilizing MLR, Lasso, KNN, SVR, and RF, respectively.
+  
 ## 5. Evaluation
 This module presents the code and data for evaluating the importance of features and robustness analysis.
 * **`LGBM-strategy1-null model.ipynb`** and **`LGBM-strategy2-null model.ipynb`** - The different strategies for predicting CO<sub>2</sub> emissions with population and latitude-longitude features.
